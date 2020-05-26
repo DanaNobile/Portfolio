@@ -1,0 +1,195 @@
+body, html {
+    font-family: 'Antic Didone';
+    font-size: 18px;
+    line-height: 34px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: auto; 
+    
+ 
+}
+  
+
+
+/* Header and Nav Bar  */
+
+  .nav-container {
+    width: auto;
+    max-width: 1140px;
+    margin-left: 200px;
+    /* margin: 0 auto; */
+    background-color: hotpink;
+    clear: both;
+  }
+
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    /* background: #ffffff; */
+    /* background-color: hotpink; */
+    /* border-bottom: 2px solid #cccccc; */
+  }
+
+  #logo {
+    float: left;
+    /* width: 250px; */
+    height: 90px;
+    font-family: 'Antic Didone'; 
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: rgb(75, 73, 73);
+    text-align: center;
+    text-decoration: none;
+    background-color: indigo;
+
+  
+  }
+  
+  nav {
+    float: right;
+    margin-top: 25px;
+    background-color: lightsalmon;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+    font-family: 'Antic Didone'; 
+   
+  }
+
+  a:hover {
+    color:#4aaaa5  
+}
+
+nav a:first-child {
+    border-left: 0 none;
+  }
+
+  #main-container {
+    padding-top: 130px;
+    /* min-height: calc(100vh - 70px); */
+    /* width: auto; */
+    /* width: 100%; */
+   
+    /* background-color: white; */
+    /* overflow: auto; */
+    background-color: lawngreen;
+    height: 100%;
+    
+   
+ 
+  } 
+
+/* Hero Image & Text */
+h1{
+  font-size: 30px;
+}
+
+h2{
+  font-size: 60px;
+  font-family: 'Krona One';
+}
+.hero-image {
+  background-image: url("../assets/images/hero-full-size.jpg") ;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;    
+  margin: auto;
+} 
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute; 
+  top: 20%;
+  color: rgb(75, 73, 73);
+  font-family: 'Antic Didone';
+  /* background-color: rgba(255, 255, 255, 0.571); */
+  margin: 30px;
+  width: 100%;
+  height: 150px;
+} 
+
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px; 
+    text-align: center;
+    color: white;
+    color: #cccccc;
+    font-size: 10px;
+    padding: 5px;
+    margin-bottom: 0;
+    padding: 30px 0;
+    clear: both;
+} 
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 980px){
+ 
+
+/* Header and Nav Bar  */
+    .nav-container{
+width: 100%;
+    }
+    #masthead{
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        margin: auto;
+        
+      }
+      nav{
+        float: none;
+        text-align: center;
+       width: 100%;
+
+      }
+      
+          #logo{
+              width: 100%;
+             text-align: center;
+            float: none;
+            justify-content: center;
+            display: flex;
+            background-color: indigo;
+            
+          }
+      
+          h1{
+            text-align: center;
+          }
+
+          #main-container{
+            width: 100%;
+            padding: 150px;
+            margin: auto;
+            margin-top: 200px;
+           
+        }
+        }
