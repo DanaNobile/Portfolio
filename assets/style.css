@@ -18,8 +18,8 @@ body, html {
   .nav-container {
     width: auto;
     max-width: 1140px;
-    margin-left: 200px;
-    /* margin: 0 auto; */
+    /* margin-left: 200px; */
+    margin: 0 auto;
     background-color: hotpink;
     clear: both;
   }
@@ -48,15 +48,19 @@ body, html {
     color: rgb(75, 73, 73);
     text-align: center;
     text-decoration: none;
-    background-color: indigo;
+    /* background-color: indigo */
 
-  
   }
+
+ #logo:hover{
+    color: lightsalmon
+ }
+  
   
   nav {
     float: right;
     margin-top: 25px;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
   }
   
   nav a {
@@ -64,20 +68,40 @@ body, html {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #999;
+    color: rgb(75, 73, 73);
     text-decoration: none;
     border-left: 1px solid #efefef;
     font-family: 'Antic Didone'; 
+    font-size: 18px;
    
   }
 
   a:hover {
-    color:#4aaaa5  
+    color: lightsalmon
 }
 
 nav a:first-child {
     border-left: 0 none;
   }
+
+/* Social Icons  */
+
+.container-intro{
+width: 100%;
+text-align: center;
+margin: auto;
+padding: auto;
+display: flex;
+justify-content: center;
+}
+
+.social-icon{
+  width: 35px;
+  height: 35px;
+
+  /* float: right; */
+  /* padding: 5px; */
+}
 
   #main-container {
     padding-top: 130px;
@@ -123,9 +147,13 @@ h2{
   color: rgb(75, 73, 73);
   font-family: 'Antic Didone';
   /* background-color: rgba(255, 255, 255, 0.571); */
-  margin: 30px;
+  /* margin: 30px; */
   width: 100%;
   height: 150px;
+  /* padding-left: 200px; */
+
+
+
 } 
 
 
@@ -191,5 +219,9 @@ width: 100%;
             margin: auto;
             margin-top: 200px;
            
+        }
+
+        .hero-text{
+          padding-top: 35px;
         }
         }
