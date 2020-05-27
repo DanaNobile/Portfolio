@@ -110,10 +110,10 @@ justify-content: center;
 }
 
 /* About Me  */
-#self-image{
+/* #self-image{
   width: 450px;
   height: 465px;
-}
+} */
 
 .container-about-me{
   /* background-color: #ecd3d3e2; */
@@ -222,7 +222,7 @@ footer {
 
 
 @media screen and (min-width: 300px) and (max-width: 980px){
- 
+
 
 /* Header and Nav Bar  */
     .nav-container{
@@ -264,7 +264,51 @@ width: 100%;
            
         }
 
-        .hero-text{
+        .hero-text, h3{
           padding-top: 35px;
+          margin-left: 15px;
+          margin-right: 15px;
         }
+
+
+
+        /* Social Icons */
+        .social-icon{
+          width: 25px;
+          height: 25px;
+          flex-wrap: wrap;
+          flex-direction: row;
+        }
+        #social-icon1{
+          float: none;
+        }
+        #social-icon3{
+          float: none;
+        }
+
+/* About Me  */
+.container-about-me{
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+#self-image{
+  margin: auto;
+}
+
+img{
+  width: 350px;
+}
+h4{
+  text-align: center;
+}
+#about-me-text{
+  text-align: center;
+}
+      
+/* Portfolio Web  */
+.card{
+margin: auto;
+}
+
         }
