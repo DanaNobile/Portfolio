@@ -38,7 +38,7 @@
                     <a href="#about-me">About</a>
                     <a href="#web-portfolio">Portfolio</a>
                     <a href="./assets/images/resume.pdf">Resume</a>
-                    <a href="#contact-me">Contact</a>
+                    <a href="#personal">Contact</a>
                 </nav>
             </div>
         </header>
@@ -73,18 +73,18 @@
                     <!-- <div class="col-md-4" style=" border: 1px solid pink"> -->
                     <div class="col-md-4">
                         <a href=" https://github.com/DanaNobile">
-                            <img alt="github" src="/assets/images/github_PNG63.png" class="social-icon"
+                            <img alt="github" src="./assets/images/github_PNG63.png" class="social-icon"
                                 id="social-icon1">
                     </div>
                     <!-- <div class="col-md-4" style="border: 1px solid pink"> -->
                     <div class="col-md-4">
                         <a href="https://www.linkedin.com/in/danagnobile/">
-                            <img alt="linkedin" src="/assets/images/li.png" class="social-icon" id="social-icon2">
+                            <img alt="linkedin" src="./assets/images/li.png" class="social-icon" id="social-icon2">
                     </div>
                     <!-- <div class="col-md-4" style="border: 1px solid pink"> -->
                     <div class="col-md-4">
                         <a href="https://www.facebook.com/dgyogini">
-                            <img alt="facebook" src="/assets/images/fb.png" class="social-icon" id="social-icon3">
+                            <img alt="facebook" src="./assets/images/fb.png" class="social-icon" id="social-icon3">
                         </a>
                     </div>
 
@@ -100,7 +100,7 @@
             <!-- <div class="row" style="border: 1px solid purple"> -->
             <div class="row">
                 <div class="col-md-5">
-                    <img src="/assets/images/portrait1.png" id="self-image">
+                    <img src="./assets/images/portrait1.png" id="self-image">
                 </div>
 
                 <!-- <div class="col-md-7" style=" border: 1px solid pink"> -->
@@ -204,44 +204,54 @@
     </a>
 
     <!-- Contact  -->
-    <!-- <a id="personal"> -->
-    <h4>Contact</h4>
-    <div class="container-contact-me">
+    <a id="personal">
 
-
-        <div class="row">
-            <div class="col-md-6">
-                <form id="contact-form">
-
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Jane Doe" required="required">
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required="required"></textarea>
-                    <br>
-                    <input type="submit" class="btn">
-                </form>
+        <div class="container-contact-me">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>Contact</h4>
+                </div>
             </div>
-
-            <div class="col-md-6">
-                <div class="personal-info">
-                    <div class="row">
-                        <img src="assets/images/phone.png" id="contact-image">
-                        <h5>631-672-7576</h5>
-                    </div>
-                    <div class="row">
-                        <img src="assets/images/email.png" id="contact-image">
-                        <h5>DanaGNobile@Gmail.com</h5>
-                    </div>
+            <div class="row">
+                <div class="col-md-12" id="contact-display">
+                    <img src="assets/images/phone.png" id="contact-image">
+                    <!-- <h5>631-672-7576</h5> -->
+                    <a href=”6316727576”>
+                        <h5 id="phone">631-672-7576</h5>
+                    </a>
 
 
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-12" id="contact-display">
+                    <img src="assets/images/email.png" id="contact-image">
+                    <!-- <h5>DanaGNobile@Gmail.com</h5> -->
+                    <a href="mailto:danagnobile@gmail.com">
+                        <h5 id="email">DanaGNobile@Gmail.com</h5>
+                    </a>
+                </div>
+            </div>
 
-            </a>
+            <div class="row">
+                <div class="col-md-12">
+                    <form id="contact-form">
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Jane Doe" required="required">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                        <br>
+                        <input type="submit" class="btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </a>
 
 
 
@@ -259,8 +269,8 @@
 
 
 
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="/java.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/java.js"></script>
 
 </body>
 
