@@ -35,10 +35,10 @@
             <div class="nav-container">
                 <a href="portfolio.html" id="logo">Home</a>
                 <nav>
-                    <a href="index.html">About</a>
+                    <a href="#about-me">About</a>
                     <a href="#web-portfolio">Portfolio</a>
                     <a href="./assets/images/resume.pdf">Resume</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="#contact-me">Contact</a>
                 </nav>
             </div>
         </header>
@@ -95,45 +95,47 @@
         </div> <!-- Container Intro Close  -->
 
     </div> <!-- Hero Image Close  -->
+    <a id="about-me">
+        <div class="container-about-me">
+            <!-- <div class="row" style="border: 1px solid purple"> -->
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="/assets/images/portrait1.png" id="self-image">
+                </div>
 
-    <div class="container-about-me">
-        <!-- <div class="row" style="border: 1px solid purple"> -->
-        <div class="row">
-            <div class="col-md-5">
-                <img src="/assets/images/portrait1.png" id="self-image">
+                <!-- <div class="col-md-7" style=" border: 1px solid pink"> -->
+
+                <div class=" col-md-7">
+                    <h4>About Me</h4>
+                    <p id="about-me-text">
+                        I am a marketing professional carrying nearly ten years of experience in the field. I am
+                        passionate
+                        about this industry because it allows me to use both my creative and analytical sides.
+                        <br>
+                        The focus of my career thus far has been generating campaign strategies that yield an increase
+                        in
+                        brand awareness and lead generation. With a dramatic shift in marketing, success rides on
+                        digital
+                        efforts. Therefore, I have advanced my skills to include web design and web development to
+                        create
+                        sites that convert leads into customers.
+                        <br>
+                        I am continuously learning new skills, and carry several certifications from sources
+                        including HubSpot, Google, SEM Rush, UCF Coding Bootcamp.
+                        <br>
+                        As a born and raised Floridian, I am proud to be an FSU alumni with a Bachelor’s Degree
+                        in
+                        Marketing. In my spare time, I practice yoga, read books that focus on self-development,
+                        and
+                        spend
+                        Sundays with my family as an Italian tradition.
+                    </p>
+                </div>
             </div>
 
-            <!-- <div class="col-md-7" style=" border: 1px solid pink"> -->
 
-            <div class=" col-md-7">
-                <h4>About Me</h4>
-                <p id="about-me-text">
-                    I am a marketing professional carrying nearly ten years of experience in the field. I am passionate
-                    about this industry because it allows me to use both my creative and analytical sides.
-                    <br>
-                    sThe focus of my career thus far has been generating campaign strategies that yield an increase
-                    in
-                    brand awareness and lead generation. With a dramatic shift in marketing, success rides on
-                    digital
-                    efforts. Therefore, I have advanced my skills to include web design and web development to
-                    create
-                    sites that convert leads into customers.
-                    <br>
-                    I am continuously learning new skills, and carry several certifications from sources
-                    including HubSpot, Google, SEM Rush, UCF Coding Bootcamp.
-                    <br>
-                    As a born and raised Floridian, I am proud to be an FSU alumni with a Bachelor’s Degree
-                    in
-                    Marketing. In my spare time, I practice yoga, read books that focus on self-development,
-                    and
-                    spend
-                    Sundays with my family as an Italian tradition.
-                </p>
-            </div>
         </div>
-
-
-    </div>
+    </a>
     <!-- Portfolio -Web  -->
     <a id="web-portfolio">
         <div class="container-web-portfolio">
@@ -201,6 +203,45 @@
         </div>
     </a>
 
+    <!-- Contact  -->
+    <!-- <a id="personal"> -->
+    <h4>Contact</h4>
+    <div class="container-contact-me">
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <form id="contact-form">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Jane Doe" required="required">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required="required"></textarea>
+                    <br>
+                    <input type="submit" class="btn">
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <div class="personal-info">
+                    <div class="row">
+                        <img src="assets/images/phone.png" id="contact-image">
+                        <h5>631-672-7576</h5>
+                    </div>
+                    <div class="row">
+                        <img src="assets/images/email.png" id="contact-image">
+                        <h5>DanaGNobile@Gmail.com</h5>
+                    </div>
+
+
+                </div>
+            </div>
+
+            </a>
 
 
 
@@ -218,9 +259,8 @@
 
 
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="/java.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="/java.js"></script>
 
 </body>
 
