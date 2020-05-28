@@ -121,7 +121,9 @@ justify-content: center;
   background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
+  
 }
+
 
 
 h4{
@@ -137,6 +139,7 @@ p{
 
 #about-me-text{
 padding-right: 25px;
+/* overflow: auto; */
 }
 
   #main-container {
@@ -246,25 +249,39 @@ h3{
   margin: auto;
 }
 
-#contact-image{
+#contact-image-other{
   width: 25px;
-  height: 25px;
+  height: 30px;
 }
 
-#contact-display{
-margin-top: 15px;
-  text-align: center;
+#contact-image-email{
+  width: 45px;
+  height: 30px;
 }
+
+.contact-display{
+height: 300px;
+padding-top: 110px;
+padding-bottom: 110px;
+margin-top: 100px;
+background-color: lightsalmon;
+text-align: center;
+
+}
+
 
 .contact-start{
   margin-top: 100px;
 }
-
-#phone:hover{
-  color: lightsalmon;
+.contact-cube{
+  max-width: 500px;
 }
-#email:hover{
-  color: lightsalmon;
+
+#hyperlink{
+  color: rgb(75, 73, 73)
+}
+#hyperlink:hover{
+  color: white;
 }
 
 /* #email{
@@ -277,10 +294,12 @@ margin-top: 15px;
 
 
 h5{
-  font-family: 'Antic Didone';
+  font-family: 'Krona One';
   color:rgb(75, 73, 73);
-  margin-left: 20px;
-  display: inline-block;
+  font-size: 16px;
+  padding-top: 15px;
+  /* margin-left: 15px; */
+  /* display: inline-block; */
 }
 
 footer {
@@ -311,6 +330,7 @@ footer {
     .nav-container{
 width: 100%;
     }
+
     #masthead{
         text-align: center;
         margin: auto;
@@ -376,6 +396,9 @@ width: 100%;
  padding-right: 15px;
 }
 
+.about-me-cube{
+ max-width: 500px;
+}
 #self-image{
   margin: auto;
 }
@@ -392,7 +415,21 @@ h4{
       
 /* Portfolio Web  */
 .card{
-margin: auto;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
 }
 
-        }
+/* Contact  */
+
+.container-contact-me{
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+
+.contact-display{
+  height: 100%;
+  /* padding-bottom: 110px; */
+}
+
+      }
