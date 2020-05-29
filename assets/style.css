@@ -327,8 +327,45 @@ font-family: 'Antic Didone';
 } 
 
 
+/* Certifications  */
+
+.container-certifications{
+  background-color: purple;
+  padding-top: 100px;
+  padding-bottom: 100px;
+height: 600px;
+}
 
 
+
+h7{
+font-family: 'Krona One';
+  color:rgb(75, 73, 73);
+  font-size: 16px;
+ 
+}
+
+#hubspot{
+  width: 60px;
+  height: 50px;
+  display: inline-block;
+  /* position: relative; */
+  padding-top: auto;
+  
+}
+
+
+    #certificate {
+      /* position: absolute; */
+      width: 400px;
+      height: 60px;
+      background: lightsalmon;
+      border-radius: 100px / 70px;
+      text-align: center;
+      padding-top: 5px;
+      margin-top: 5px;
+    }
+  
 
 @media screen and (min-width: 300px) and (max-width: 980px){
 
