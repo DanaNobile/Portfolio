@@ -128,13 +128,13 @@ h3{
     padding-bottom: 100px;  
 }
 
-/* About Me Header -Needs to be aligned left, so new styling  */
+
 h7{
     font-size: 27px;
     margin-top: 50px;
     font-family: 'Krona One';
     color: rgb(75, 73, 73);
-    text-align: center;
+    /* text-align: center; */
 }
 
 h4{
@@ -272,7 +272,7 @@ h5{
 h8{
     font-family: 'Krona One';
     color:rgb(75, 73, 73);
-    font-size: 16px;
+    font-size: 14px;
  
 }
 
@@ -323,7 +323,7 @@ h8{
 }
   
 .image-container{
-    width: 2400px;
+    max-width: 2400px;
     height: 600px;
     position: relative;
     transition: left 2s;
@@ -475,7 +475,7 @@ h1{
 }
         
 .hero-text{
-  padding-top: 70px;
+  padding-top: 130px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -515,6 +515,10 @@ img{
   width: 350px;
 }
 
+h7{
+  text-align: center;
+}
+
 h4{
   text-align: center;
 }
@@ -531,7 +535,15 @@ h4{
   margin-right: auto;
   margin-top: 50px;
 }
+/* Social Media  */
 
+.image-container{
+width: 100%;
+}
+
+.slider-image{
+  float: none;
+}
 /* Certifications */
 
 .container-certifications{
