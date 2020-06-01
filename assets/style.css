@@ -16,11 +16,8 @@ body, html {
 .nav-container {
     width: auto;
     max-width: 1140px;
-    /* margin-left: 200px; */
     margin: 0 auto;
-    /* background-color: hotpink; */
     clear: both;
-    /* position: fixed; */
 }
 
 #masthead {
@@ -29,11 +26,11 @@ body, html {
     width: 100%;
     top: 0;
     margin: 0 0 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     overflow: auto;
-    color: #ffffff;
-    /* background: #ffffff; */
-    /* background-color: hotpink; */
-    /* border-bottom: 2px solid #cccccc; */
+    background-color: white;
+  
 }
 
   #logo {
@@ -85,42 +82,42 @@ nav a:first-child {
 
 /* Hero Image & Text */
 h1{
-  font-size: 20px;
+    font-size: 20px;
 }
 
 h2{
-  font-size: 40px;
-  font-family: 'Krona One';
+    font-size: 40px;
+    font-family: 'Krona One';
 }
 
 h3{
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .hero-image {
-  background-image: url("../assets/images/hero-full-size.jpg") ;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  justify-content: center;    
-  margin: auto;
+    background-image: url("../assets/images/hero-full-size.jpg") ;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;    
+    margin: auto;
 } 
 
 /* Place text in the middle of the image */
 .hero-text {
-  text-align: center;
-  position: absolute; 
-  top: 20%;
-  color: rgb(75, 73, 73);
-  font-family: 'Antic Didone';
-  /* background-color: rgba(255, 255, 255, 0.571); */
-  /* margin: 30px; */
-  width: 100%;
-  height: 150px;
-  /* padding-left: 200px; */
+    text-align: center;
+    position: absolute; 
+    top: 20%;
+    color: rgb(75, 73, 73);
+    font-family: 'Antic Didone';
+    /* background-color: rgba(255, 255, 255, 0.571); */
+    /* margin: 30px; */
+    width: 100%;
+    height: 150px;
+    /* padding-left: 200px; */
 } 
 
 /* About Me  */
@@ -131,180 +128,183 @@ h3{
 } */
 
 .container-about-me{
-  /* background-color: #ecd3d3e2; */
-  background-color: white;
-  padding-top: 100px;
-  padding-bottom: 100px;  
+    /* background-color: #ecd3d3e2; */
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;  
 }
 
 /* About Me Header -Needs to be aligned left, so new styling  */
 h7{
-  font-size: 27px;
-  margin-top: 50px;
-  font-family: 'Krona One';
-  color: rgb(75, 73, 73);
-  text-align: center;
+    font-size: 27px;
+    margin-top: 50px;
+    font-family: 'Krona One';
+    color: rgb(75, 73, 73);
+    text-align: center;
 }
 
 h4{
-  margin-top: 50px;
-  font-family: 'Krona One';
-  color: rgb(75, 73, 73);
-  text-align: center;
+    margin-top: 50px;
+    font-family: 'Krona One';
+    color: rgb(75, 73, 73);
+    text-align: center;
 }
 
 p{
-  margin-top: 30px;
+      margin-top: 30px;
 }
 
 #about-me-text{
-  padding-right: 25px;
+    padding-right: 25px;
 /* overflow: auto; */
 }
 
 
-/* Portfolio  */
+/* Portfolio Web */
 .container-web-portfolio{
-  background-color: #efefef;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+    background-color: #efefef;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .cards {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .card-img-top{
-  width: 100%;
-  height: 330px;
+    width: 100%;
+    height: 330px;
 }
 
 .btn{
-  background-color: #efefef;
-  color: rgb(75, 73, 73);
-  font-family: 'Antic Didone';
-  margin-top: 5px;
+    background-color: #efefef;
+    color: rgb(75, 73, 73);
+    font-family: 'Antic Didone';
+    margin-top: 5px;
 }
 
 .btn:hover{
-  background-color: lightsalmon;
-  border: 0px none;
-  color: white;
+    background-color: lightsalmon;
+    border: 0px none;
+    color: white;
 }
+
+
+
 
 /* Contact Me  */
 
 .container-contact-me{
-  padding-top: 100px;
-  padding-bottom: 100px; 
+    padding-top: 100px;
+    /* padding-bottom: 100px;  */
 }
 
 #contact-form{
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
-  padding-top: 60px;
-  margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding-top: 60px;
+    margin: auto;
 }
 
 #contact-image-other{
-  width: 25px;
-  height: 30px;
+    width: 25px;
+    height: 30px;
 }
 
 #contact-image-email{
-  width: 45px;
-  height: 30px;
+    width: 45px;
+    height: 30px;
 }
 
 .contact-display{
-height: 300px;
-padding-top: 110px;
-padding-bottom: 110px;
-margin-top: 100px;
-background-color: lightsalmon;
-text-align: center;
+    height: 300px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin-top: 100px;
+    background-color: lightsalmon;
+    text-align: center;
 }
 
 .contact-start{
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 .contact-cube{
-  max-width: 500px;
+    max-width: 500px;
 }
 
 #hyperlink{
-  color: rgb(75, 73, 73)
+    color: rgb(75, 73, 73)
 }
 
 #hyperlink:hover{
-  color: white;
+    color: white;
 }
 
 h5{
-  font-family: 'Krona One';
-  color:rgb(75, 73, 73);
-  font-size: 16px;
-  padding-top: 15px;
-  /* margin-left: 15px; */
-  /* display: inline-block; */
+    font-family: 'Krona One';
+    color:rgb(75, 73, 73);
+    font-size: 16px;
+    padding-top: 15px;
+    /* margin-left: 15px; */
+    /* display: inline-block; */
 }
 
 
 /* Certifications  */
 
 .container-certifications{
-  /* background-color: purple; */
-  padding-top: 100px;
-  padding-bottom: 100px;
+ background-color: #efefef;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .certs{
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .certsR{
-  margin-right: 25px;
+    margin-right: 25px;
 }
 
 .certsL{
-  margin-left: 25px;
+    margin-left: 25px;
 }
 
 h7{
-  font-family: 'Krona One';
-  color:rgb(75, 73, 73);
-  font-size: 16px;
+    font-family: 'Krona One';
+    color:rgb(75, 73, 73);
+    font-size: 16px;
  
 }
 
 #hubspot-cert{
-  width: 60px;
-  height: 50px;
-  display: inline-block;
-  /* position: relative; */
-  padding-top: auto;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    /* position: relative; */
+    padding-top: auto;
   
 }
 
 #other-cert{
-  padding-left: 5px;
-  padding-right: 5px;
-  width: 60px;
-  height: 50px;
-  display: inline-block;
-  /* position: relative; */
-  padding-top: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    /* position: relative; */
+    padding-top: auto;
 }
 
 #certificate {
-      /* position: absolute; */
+        /* position: absolute; */
     width: 400px;
     height: 60px;
     background: lightsalmon;
@@ -316,8 +316,13 @@ h7{
   
 
 /* Social Media  */
+.container-social{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .slide-container{
-    width: 800px;
+    margin-top: 50px;
+    width:400px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -326,10 +331,11 @@ h7{
 }
   
 .image-container{
-    max-width: 2400px;
+    width: 2400px;
     height: 600px;
     position: relative;
     transition: left 2s;
+    /* -webkit-transition: left 2s; */
     
 }
   
@@ -340,84 +346,94 @@ h7{
 }
   
 .button-container{
-    top: -20px;
-    position: relative;
+    /* top: -50px; */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    
 }
   
 .slider-button{
     display: inline-block;
-    height: 10px;
-    width: 10px;
-    border-radius: 5px;
-    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: lightsalmon;
 }
   
-  #slider-image1:target ~.image-container{
+#slider-image1:target ~.image-container{
     left: 0px;
-  }
-  #slider-image2:target ~.image-container{
+}
+
+#slider-image2:target ~.image-container{
+    left: -400px;
+}
+  
+#slider-image3:target ~.image-container{
     left: -800px;
-  }
+}
   
-  #slider-image3:target ~.image-container{
+#slider-image4:target ~.image-container{
+    left: -1200px;
+}
+  
+#slider-image5:target ~.image-container{
     left: -1600px;
-  }
+}
   
-  #slider-image4:target ~.image-container{
-    left: -2400px;
-  }
-  
-  #slider-image5:target ~.image-container{
-    left: -3200px;
-  }
-  
-  #slider-image6:target ~.image-container{
-    left: -3200px;
-  }
+#slider-image6:target ~.image-container{
+    left: -2000px;
+}
 
-
+.social-text{
+  text-align: center;
+  margin: auto;
+  max-width: 800px
+}
 
 footer {
-  background-color: white;
-              /* border-top: 8px solid lightsalmon; */
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  max-height: 150px; 
-  text-align: center;
-  color: rgb(75, 73, 73);
-  font-family: 'Antic Didone';
-  font-size: 10px;
-  padding: 5px;
-  margin-bottom: 0;
-  padding: 30px 0;
-  clear: both;
+    background-color: white;
+                /* border-top: 8px solid lightsalmon; */
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    max-height: 50px; 
+    text-align: center;
+    color: rgb(75, 73, 73);
+    font-family: 'Antic Didone';
+    font-size: 10px;
+    padding: 5px;
+    margin-bottom: 0;
+    padding: 30px 0;
+    clear: both;
 } 
           
 /* Social Icons  */
           
 .container-intro{
-  width: 100%;
-  text-align: center;
-  margin: auto;
-  padding: auto;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
 }
             
 /* Social Bar  */
 .social-icon{
-  width: 35px;
-  height: 35px;
-  margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
 }
             
 #social-icon1{
-  float: right;
+    float: right;
 }
 
 #social-icon3{
-float: left;
+  float: left;
 }
 
 
@@ -445,7 +461,8 @@ nav{
   text-align: center;
   width: 100%;
 }
-      
+
+
 #logo{
   width: 100%;
   text-align: center;
