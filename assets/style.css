@@ -330,13 +330,24 @@ font-family: 'Antic Didone';
 /* Certifications  */
 
 .container-certifications{
-  background-color: purple;
+  /* background-color: purple; */
   padding-top: 100px;
   padding-bottom: 100px;
-height: 600px;
 }
 
+.certs{
+  display: flex;
+  justify-content: center;
+margin-top: 50px;
+}
 
+.certsR{
+ margin-right: 25px;
+}
+
+.certsL{
+margin-left: 25px;
+}
 
 h7{
 font-family: 'Krona One';
@@ -345,7 +356,17 @@ font-family: 'Krona One';
  
 }
 
-#hubspot{
+#hubspot-cert{
+  width: 60px;
+  height: 50px;
+  display: inline-block;
+  /* position: relative; */
+  padding-top: auto;
+  
+}
+#other-cert{
+  padding-left: 5px;
+  padding-right: 5px;
   width: 60px;
   height: 50px;
   display: inline-block;
@@ -354,14 +375,13 @@ font-family: 'Krona One';
   
 }
 
-
     #certificate {
       /* position: absolute; */
       width: 400px;
       height: 60px;
       background: lightsalmon;
       border-radius: 100px / 70px;
-      text-align: center;
+      text-align: left;
       padding-top: 5px;
       margin-top: 5px;
     }
@@ -474,6 +494,26 @@ h4{
 margin-left: auto;
 margin-right: auto;
 margin-top: 50px;
+}
+
+
+/* Certifications */
+
+.container-certifications{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.certs{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.certsL{
+  margin: 0;
+}
+
+.certsR{
+  margin: 0;
 }
 
 /* Contact  */
