@@ -310,10 +310,12 @@ h8{
 }
   
 .image-container{
-    max-width: 2400px;
+    width: 2400px;
     height: 600px;
     position: relative;
     transition: left 2s;    
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
 }
   
 .slider-image{
@@ -517,11 +519,19 @@ h4{
 /* Social Media  */
 
 .image-container{
-width: 100%;
+width: auto;
+
 }
 
 .slider-image{
   float: none;
+  padding-left:15px;
+padding-right: 15px;
+}
+
+.social-text{
+  padding-left:15px;
+  padding-right: 15px;
 }
 /* Certifications */
 
