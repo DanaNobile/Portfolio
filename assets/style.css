@@ -52,7 +52,6 @@ body, html {
     color: lightsalmon
 }
   
-  
 nav {
     float: right;
     margin-top: 25px;
@@ -113,16 +112,13 @@ h3{
     top: 20%;
     color: rgb(75, 73, 73);
     font-family: 'Antic Didone';
-    /* background-color: rgba(255, 255, 255, 0.571); */
-    /* margin: 30px; */
     width: 100%;
     height: 150px;
-    /* padding-left: 200px; */
+  
 } 
 
 
 .container-about-me{
-    /* background-color: #ecd3d3e2; */
     background-color: white;
     padding-top: 100px;
     padding-bottom: 100px;  
@@ -134,7 +130,6 @@ h7{
     margin-top: 50px;
     font-family: 'Krona One';
     color: rgb(75, 73, 73);
-    /* text-align: center; */
 }
 
 h4{
@@ -150,7 +145,6 @@ p{
 
 #about-me-text{
     padding-right: 25px;
-/* overflow: auto; */
 }
 
 
@@ -191,7 +185,6 @@ p{
 
 .container-contact-me{
     padding-top: 100px;
-    /* padding-bottom: 100px;  */
 }
 
 #contact-form{
@@ -230,7 +223,8 @@ p{
 }
 
 #hyperlink{
-    color: rgb(75, 73, 73)
+    color: rgb(75, 73, 73);
+    font-size: 14px;
 }
 
 #hyperlink:hover{
@@ -240,10 +234,8 @@ p{
 h5{
     font-family: 'Krona One';
     color:rgb(75, 73, 73);
-    font-size: 16px;
+    font-size: 12px;
     padding-top: 15px;
-    /* margin-left: 15px; */
-    /* display: inline-block; */
 }
 
 
@@ -273,16 +265,13 @@ h8{
     font-family: 'Krona One';
     color:rgb(75, 73, 73);
     font-size: 14px;
- 
 }
 
 #hubspot-cert{
     width: 60px;
     height: 50px;
     display: inline-block;
-    /* position: relative; */
-    padding-top: auto;
-  
+    padding-top: auto; 
 }
 
 #other-cert{
@@ -291,12 +280,10 @@ h8{
     width: 60px;
     height: 50px;
     display: inline-block;
-    /* position: relative; */
     padding-top: auto;
 }
 
 #certificate {
-        /* position: absolute; */
     width: 400px;
     height: 60px;
     background: lightsalmon;
@@ -326,9 +313,7 @@ h8{
     max-width: 2400px;
     height: 600px;
     position: relative;
-    transition: left 2s;
-    /* -webkit-transition: left 2s; */
-    
+    transition: left 2s;    
 }
   
 .slider-image{
@@ -338,8 +323,6 @@ h8{
 }
   
 .button-container{
-    /* top: -50px; */
-    /* position: relative; */
     display: flex;
     justify-content: center;
     
@@ -387,8 +370,6 @@ h8{
 
 footer {
     background-color: white;
-                /* border-top: 8px solid lightsalmon; */
-    /* position: fixed; */
     bottom: 0;
     width: 100%;
     max-height: 50px; 
@@ -402,8 +383,7 @@ footer {
     clear: both;
 } 
           
-/* Social Icons  */
-          
+/* Social Icons  */          
 .container-intro{
     width: 100%;
     text-align: center;
@@ -431,7 +411,6 @@ footer {
 
 
 @media screen and (min-width: 300px) and (max-width: 980px){
-
 
 /* Header and Nav Bar  */
 .nav-container{
