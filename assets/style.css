@@ -120,12 +120,6 @@ h3{
     /* padding-left: 200px; */
 } 
 
-/* About Me  */
-
-/* #self-image{
-  width: 450px;
-  height: 465px;
-} */
 
 .container-about-me{
     /* background-color: #ecd3d3e2; */
@@ -191,8 +185,6 @@ p{
     border: 0px none;
     color: white;
 }
-
-
 
 
 /* Contact Me  */
@@ -277,7 +269,7 @@ h5{
     margin-left: 25px;
 }
 
-h7{
+h8{
     font-family: 'Krona One';
     color:rgb(75, 73, 73);
     font-size: 16px;
