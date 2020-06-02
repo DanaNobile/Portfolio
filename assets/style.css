@@ -179,7 +179,8 @@ p{
 }
 
 .btn:hover{
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
+    background-color: rgba(255, 160, 122, 0.406);
     border: 0px none;
     color: white;
 }
@@ -190,6 +191,7 @@ p{
 .container-contact-me{
     padding-top: 100px;
     width: 100%;
+    background-color: #efefef;
 }
 
 #contact-form{
@@ -215,7 +217,8 @@ p{
     padding-top: 110px;
     padding-bottom: 110px;
     margin-top: 100px;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
+    background-color: rgba(255, 160, 122, 0.406);
     text-align: center;
 }
 
@@ -247,7 +250,7 @@ h5{
 /* Certifications  */
 
 .container-certifications{
- background-color: #efefef;
+ background-color: white;
     padding-top: 100px;
     padding-bottom: 100px;
     width: 100%;
@@ -278,6 +281,7 @@ h8{
     height: 50px;
     display: inline-block;
     padding-top: auto; 
+    padding-bottom: 3px;
 }
 
 #other-cert{
@@ -290,9 +294,10 @@ h8{
 }
 
 #certificate {
-    width: 400px;
+    width: 370px;
     height: 60px;
-    background: lightsalmon;
+    background: rgba(255, 160, 122, 0.406);
+border: solid 1px;
     border-radius: 100px / 70px;
     text-align: left;
     padding-top: 5px;
@@ -300,81 +305,7 @@ h8{
 }
   
 
-/* Social Media  */
-.container-social{
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.slide-container{
-    margin-top: 50px;
-    width:400px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    text-align: center;
-}
-  
-.image-container{
-    width: 2400px;
-    height: 600px;
-    position: relative;
-    transition: left 2s;    
-    -webkit-transition: left 2s;
-    -moz-transition: left 2s;
-}
-  
-.slider-image{
-    float: left;
-    margin: 0px;
-    padding: 0px;
-}
-  
-.button-container{
-    display: flex;
-    justify-content: center;
-    
-}
-  
-.slider-button{
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    border-radius: 15px;
-    margin-left: 5px;
-    margin-top: 10px;
-    background-color: lightsalmon;
-}
-  
-#slider-image1:target ~.image-container{
-    left: 0px;
-}
 
-#slider-image2:target ~.image-container{
-    left: -400px;
-}
-  
-#slider-image3:target ~.image-container{
-    left: -800px;
-}
-  
-#slider-image4:target ~.image-container{
-    left: -1200px;
-}
-  
-#slider-image5:target ~.image-container{
-    left: -1600px;
-}
-  
-#slider-image6:target ~.image-container{
-    left: -2000px;
-}
-
-.social-text{
-  text-align: center;
-  margin: auto;
-  max-width: 800px
-}
 
 footer {
     background-color: white;
@@ -447,7 +378,8 @@ nav{
   text-align: center;
   float: none;
   justify-content: center;
-  display: flex;           
+  display: flex;   
+         
 }
       
 h1{
