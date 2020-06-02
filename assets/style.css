@@ -455,6 +455,10 @@ h1{
 }
 
 h2{
+  font-size: 20px;
+}
+
+h3{
   font-size: 15px;
 }
 #main-container{
@@ -465,7 +469,7 @@ h2{
 }
         
 .hero-text{
-  padding-top: 130px;
+  padding-top: 100px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -491,15 +495,8 @@ h3{
   float: none;
 }
 
-/* About Me  */
-/* h7{
-  text-align: center;
-} */
-.container-about-me{
-  /* padding-left: 15px;
-  padding-right: 15px; */
-  width: 100%;
-}
+
+
 
 #self-image{
   margin: auto;
@@ -557,6 +554,7 @@ padding-right: 15px;
   padding-right: 15px;
 
 }
+
 h8{
   font-size: 11px;
 }
