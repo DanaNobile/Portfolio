@@ -6,7 +6,7 @@ body, html {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: auto; 
+    overflow-x: hidden; 
     
  
 }
@@ -104,6 +104,8 @@ h3{
     display: flex;
     justify-content: center;    
     margin: auto;
+
+
 } 
 
 /* Place text in the middle of the image */
@@ -488,8 +490,8 @@ h3{
 
 /* About Me  */
 .container-about-me{
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   width: 100%;
 }
 
