@@ -490,6 +490,7 @@ h3{
 .container-about-me{
   padding-left: 15px;
   padding-right: 15px;
+  width: 100%;
 }
 
 #self-image{
