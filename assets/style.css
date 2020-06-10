@@ -129,8 +129,8 @@ h3{
 
 .container-about-me{
     background-color: white;
-    padding-top: 100px;
-    padding-bottom: 100px;  
+    padding-top: 50px;
+    padding-bottom: 50px;  
 }
 
 
@@ -141,16 +141,18 @@ h7{
     color: rgb(75, 73, 73);
 }
 
-h4{
-    margin-top: 50px;
+
+  h4{
+    padding-bottom: 10px;
     font-family: 'Krona One';
     color: rgb(75, 73, 73);
     text-align: center;
 }
 
 p{
-      margin-top: 30px;
+      margin-top: 10px;
       font-family: 'Antic Didone';
+      font-size: 15px;
 }
 
 #about-me-text{
@@ -159,30 +161,40 @@ p{
 
 
 /* Portfolio Web */
+
 .container-web-portfolio{
-  width: 100%;
-    background-color: #efefef;
+  background-color: #efefef;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .cards {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     justify-content: center;
 }
 
 .card-img-top{
     width: 100%;
-    height: 330px;
+   height: 330px;
+}
+
+.card-body{
+max-width: 320px;
+max-height: 300px;
+}
+
+.card-text{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .btn{
     background-color: #efefef;
     color: rgb(75, 73, 73);
     font-family: 'Antic Didone';
-    margin-top: 5px;
+
 }
 
 .btn:hover{
@@ -194,11 +206,12 @@ p{
 
 /* Social  */
 .container-social{
-padding-top: 100px;
-padding-bottom: 100px;
+padding-top: 50px;
+padding-bottom: 50px;
 width: 100%;
 display: flex;
 justify-content: center;
+background-color: white;
 }
 
 #social-text{
@@ -356,6 +369,7 @@ flex-direction: row; */
 img.demo {
   opacity: 0.6;
   display: none;
+  
  
 }
 
@@ -366,6 +380,8 @@ img.demo {
 
 img.hover-shadow {
   transition: 0.3s;
+  width: 400px;
+  height: 600px;
 }
 
 .hover-shadow:hover {
@@ -381,7 +397,7 @@ img.hover-shadow {
 .container-contact-me{
     padding-top: 100px;
     width: 100%;
-    background-color: #efefef;
+    background-color: white;
 }
 
 #contact-form{
@@ -441,10 +457,10 @@ h5{
 /* Certifications  */
 
 .container-certifications{
- background-color: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 100%;
+  background-color: rgba(255, 160, 122, 0.406);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* width: 100%; */
 }
 
 
@@ -463,11 +479,10 @@ margin-right: auto;
  
 }
 #cert-col{
-  /* background-color: tomato; */
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 60px;
+ 
 }
 
 
@@ -475,9 +490,9 @@ margin-right: auto;
 /* Writing  */
 
 .container-writing{
-  /* background-color: white; */
-    padding-top: 100px;
-    padding-bottom: 100px; 
+  background-color: #efefef;
+    padding-top: 50px;
+    padding-bottom: 50px; 
 
 
 }
@@ -550,7 +565,7 @@ h1 {
 .btn {
   border: none;
   outline: none;
-  padding: 12px 16px;
+  /* padding: 12px 16px; */
   background-color: white;
   cursor: pointer;
 }
@@ -747,9 +762,6 @@ h7{
   justify-content: center;
 }
 
-h4{
-  text-align: center;
-}
 
 #about-me-text{
   text-align: center;
@@ -848,6 +860,7 @@ margin-right: auto;
 .container-contact-me{
   padding-left: 15px;
   padding-right: 15px;
+  background-color: white;
  }
 
 .contact-display{
