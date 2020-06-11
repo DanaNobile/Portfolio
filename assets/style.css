@@ -249,7 +249,7 @@ background-color: white;
 /* Create four equal columns that floats next to eachother */
 .column {
   /* float: left; */
-  width: 25%;
+  /* width: 25%; */
 }
 
 /* The Modal (background) */
@@ -351,20 +351,13 @@ flex-direction: row; */
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: rgb(15, 14, 14);
   font-size: 14px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
 }
 
-/* Caption text */
-/* .caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-} */
 
 img.demo {
   opacity: 0.6;
@@ -381,8 +374,10 @@ img.demo {
 
 img.hover-shadow {
   transition: 0.3s;
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 480px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .hover-shadow:hover {
