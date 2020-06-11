@@ -377,8 +377,8 @@ img.hover-shadow {
   transition: 0.3s;
   width: 300px;
   height: 480px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .hover-shadow:hover {
@@ -778,27 +778,18 @@ h3{
   margin-right: 15px;
 }
 
-/* Social Icons */
-.social-icon{
-  width: 25px;
-  height: 25px;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
 
-#social-icon1{
-  float: none;
-}
-
-#social-icon3{
-  float: none;
-}
 
 
 
 
 #self-image{
   margin: auto;
+}
+
+.about-me-cube{
+ display: flex;
+ justify-content: center;
 }
 
 img{
@@ -829,8 +820,6 @@ h7{
 /* Social Media  */
 
 .container-social{
-  width: 100%;
-
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -844,6 +833,13 @@ h7{
 text-align: center;
 }
 
+img.hover-shadow {
+  margin-top: 15px;
+}
+
+#see-more{
+  display: none;
+}
 
 /* .image-container{
 width: auto;
@@ -921,4 +917,20 @@ margin-right: auto;
   padding-top: 25px;
 }
 
+
+/* Social Icons */
+.social-icon{
+  width: 25px;
+  height: 25px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#social-icon1{
+  float: none;
+}
+
+#social-icon3{
+  float: none;
+}
 }
