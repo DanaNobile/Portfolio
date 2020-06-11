@@ -150,9 +150,10 @@ h7{
 }
 
 p{
-      margin-top: 10px;
+      /* margin-top: 10px; */
       font-family: 'Antic Didone';
       font-size: 15px;
+      line-height: 25px;
 }
 
 #about-me-text{
@@ -468,8 +469,8 @@ h8{
 }
 
 #wreath{
-  width: 60px;
-  height: 50px;
+  width: 40px;
+  height: 30px;
 margin-left: auto;
 margin-right: auto;
  
@@ -513,13 +514,25 @@ body {
   margin: auto;
 }
 
+#writing-link{
+  font-size: 20px;
+}
 #writing-link:hover{
   color: lightsalmon;
 
 }
+
+h9{
+
+    font-family: 'Krona One';
+    color:rgb(75, 73, 73);
+    font-size: 12px;
+}
+
+
 h1 {
   /* font-size: 50px; */
-  word-break: break-all;
+  /* word-break: break-all; */
 }
 
 .row {
@@ -550,6 +563,7 @@ h1 {
 .content {
   background-color: white;
   padding: 10px;
+  /* max-width:350px; */
 }
 
 /* The "show" class is added to the filtered elements */
