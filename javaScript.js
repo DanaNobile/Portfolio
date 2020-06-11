@@ -1,3 +1,5 @@
+// Social Images 
+
 
 // Open the Modal
 function openModal() {
@@ -40,6 +42,8 @@ function showSlides(n) {
     captionText.innerHTML = dots[slideIndex - 1].alt;
 }
 
+
+// Writing Samples 
 
 filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
@@ -88,3 +92,27 @@ for (var i = 0; i < btns.length; i++) {
         this.className += " active";
     });
 }
+
+
+
+// Navigation
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+function hideMenu() {
+    var menu = document.getElementById('myLinks')
+    if (menu.style.display === "none") {
+        menu.style.display = "block";
+    } else {
+        menu.style.display = "none";
+    }
+}
+

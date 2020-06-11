@@ -679,37 +679,76 @@ footer {
 
 @media screen and (min-width: 300px) and (max-width: 980px){
 
+  /* Hamburger Nav  */
+
+.topnav {
+  overflow: auto;
+  background-color: white;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  
+  
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: rgb(75, 73, 73);
+  font-family: 'Antic Didone'; 
+    font-size: 16px;
+  padding: 10px 16px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #efefef;
+  color: lightsalmon;
+ padding-top: 20px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #efefef;
+  color: lightsalmon;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #efefef;
+  color: white;
+}
+
+
 /* Header and Nav Bar  */
 .nav-container{
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 #masthead{
-  text-align: center;
-  margin: auto;
-  width: 100%;
-  margin: auto;
-  /* background-color: white;      */
+  display: none;
 }
 
-nav{
-  float: none;
-  text-align: center;
-  width: 100%;
-}
+
 
 
 #logo{
-  width: 100%;
-  text-align: center;
-  float: none;
-  justify-content: center;
-  display: flex;   
-         
+ width: 100%;
+  text-align: left;     
+  background-color: #efefef;  
 }
-      
+ 
+#logo.active{
+  padding-top: 5px;
+ 
+}
 h1{
   text-align: center;
 }
@@ -721,15 +760,15 @@ h2{
 h3{
   font-size: 15px;
 }
-#main-container{
+/* #main-container{
   width: 100%;
   padding: 150px;
   margin: auto;
-  margin-top: 200px;         
-}
+  margin-top: 20px;         
+} */
         
 .hero-text{
-  padding-top: 100px;
+  /* padding-top: 10px; */
   padding-left: 15px;
   padding-right: 15px;
 }

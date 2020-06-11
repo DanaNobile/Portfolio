@@ -20,10 +20,38 @@
     <link rel="stylesheet" href="assets/style.css">
     <!-- Image Preview Link  -->
     <meta property="og:image" content="./assets/images/Site Preview.png" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dana Nobile</title>
 </head>
 
 <body>
+    <!-- Hamburger Mobile Navigation Menu -->
+    <div class="topnav">
+        <!-- <a href="#home" class="active">Logo</a> -->
+
+
+
+        <a href="https://dananobile.github.io/Portfolio/" id="logo" class="active">Home</a>
+
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a onclick="myFunction()" href="#about-me">About</a>
+            <a onclick="myFunction()" href="#certifications">Certifications</a>
+            <a onclick="myFunction()" href="#web-portfolio">Web Dev</a>
+            <a onclick="myFunction()" href="#social">Social Design</a>
+            <a onclick="myFunction()" href="#writing">Writing Samples</a>
+            <a onclick="myFunction()" href="./assets/images/resume.pdf" target="_blank">Resume</a>
+            <a onclick="myFunction()" href="#personal">Contact</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+
 
     <!-- Hero Image and Nav Bar  -->
     <div class="hero-image">
