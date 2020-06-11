@@ -490,8 +490,6 @@ margin-right: auto;
   background-color: #efefef;
     padding-top: 50px;
     padding-bottom: 50px; 
-
-
 }
 * {
   box-sizing: border-box;
@@ -856,6 +854,9 @@ padding-right: 15px;
   padding-left:15px;
   padding-right: 15px;
 }
+
+
+
 /* Certifications */
 
 .container-certifications{
@@ -898,6 +899,10 @@ margin-right: auto;
 
 .certsR{
   margin: 0;
+}
+/* Writing  */
+.blogs, .web, .print{
+width: 100%;
 }
 
 /* Contact  */
