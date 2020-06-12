@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+    mail("danagnobile@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -655,8 +661,8 @@
 
 
             <div class="row">
-                <div class="col-md-12" action="https://formspree.io/xlepjnqb" method="POST">
-                    <form id="contact-form">
+                <div class="col-md-12">
+                    <form method="post" action="contact.php" id="contact-form">
 
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" placeholder="Jane Doe" required="required">
