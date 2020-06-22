@@ -1,4 +1,4 @@
-// Social Images 
+//============= Social Images =============//
 
 
 // Open the Modal
@@ -43,9 +43,10 @@ function showSlides(n) {
 }
 
 
-// Writing Samples 
+//============= Writing Samples =============//
 
 filterSelection("all") // Execute the function and show all columns
+
 function filterSelection(c) {
     var x, i;
     x = document.getElementsByClassName("column");
@@ -84,6 +85,7 @@ function w3RemoveClass(element, name) {
 
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
+
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function () {
@@ -95,7 +97,7 @@ for (var i = 0; i < btns.length; i++) {
 
 
 
-// Navigation
+//============= Navigation Menu =============//
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction() {
