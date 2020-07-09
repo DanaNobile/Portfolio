@@ -631,8 +631,27 @@ text-decoration: underline;
   margin-top: 155px;
 }
 
+/* SEO  */
+.container-seo{
+  padding-top: 50px;
+  padding-bottom: 50px;
+} 
 
+#web-text{
+padding-top: 100px;
+padding-left: 15px;
+padding-right: 15px;
+display: flex;
+}
 
+.carousel{
+  background: #2f4357;
+  margin-top: 20px;
+}
+.carousel-item{
+  text-align: center;
+  min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
 /* Footer  */
 footer {
     background-color: white;
