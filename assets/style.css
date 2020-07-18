@@ -392,11 +392,11 @@ img.hover-shadow {
 }
 /* Contact Me  */
 
-.container-contact-me{
+/* .container-contact-me{
     padding-top: 100px;
     width: 100%;
     background-color: white;
-}
+} */
 
 #contact-form{
     display: flex;
@@ -420,7 +420,7 @@ img.hover-shadow {
     height: 300px;
     padding-top: 110px;
     padding-bottom: 110px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     /* background-color: lightsalmon; */
     background-color: rgba(255, 160, 122, 0.406);
     text-align: center;
