@@ -635,13 +635,25 @@ text-decoration: underline;
 .container-seo{
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 100%;
+  padding-left: 40px;
+  padding-right:0px;
 } 
 
+#PC-Video{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 0; */
+  /* padding-top: 0; */
+}
+
 #web-text{
-padding-top: 100px;
+padding-top: 16px;
 padding-left: 15px;
 padding-right: 15px;
-display: flex;
+/* display: flex; */
 }
 
 .carousel{
@@ -882,6 +894,7 @@ padding-right: 15px;
 .container-certifications{
   padding-left: 15px;
   padding-right: 15px;
+  background-color: rgba(255, 160, 122, 0.406);
 
 }
 
