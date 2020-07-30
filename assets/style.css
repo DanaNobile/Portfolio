@@ -527,7 +527,7 @@ text-decoration: underline;
 }
 
 /* SEO  */
-.container-seo{
+.container-seo {
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
@@ -535,85 +535,80 @@ text-decoration: underline;
   padding-right:0px;
 } 
 
-#PC-Video{
+#PC-Video {
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: 0; */
-  /* padding-top: 0; */
 }
 
-#web-text{
-padding-top: 16px;
-padding-left: 15px;
-padding-right: 15px;
-/* display: flex; */
+#web-text {
+  padding-top: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.carousel{
+.carousel {
   background: #2f4357;
   margin-top: 20px;
 }
-.carousel-item{
+
+.carousel-item {
   text-align: center;
-  min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+  min-height: 280px; 
 }
+
 /* Footer  */
 footer {
-    background-color: white;
-    bottom: 0;
-    width: 100%;
-    max-height: 50px; 
-    text-align: center;
-    color: rgb(75, 73, 73);
-    font-family: 'Antic Didone';
-    font-size: 10px;
-    padding: 5px;
-    margin-bottom: 0;
-    padding: 30px 0;
-    clear: both;
+  background-color: white;
+  bottom: 0;
+  width: 100%;
+  max-height: 50px; 
+  text-align: center;
+  color: rgb(75, 73, 73);
+  font-family: 'Antic Didone';
+  font-size: 10px;
+  padding: 5px;
+  margin-bottom: 0;
+  padding: 30px 0;
+  clear: both;
 } 
           
 /* Social Icons  */          
-.container-intro{
-    width: 100%;
-    text-align: center;
-    margin: auto;
-    padding: auto;
-    display: flex;
-    justify-content: center;
+.container-intro {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: center;
 }
             
 /* Social Bar  */
-.social-icon{
-    width: 35px;
-    height: 35px;
-    margin-top: 10px;
+.social-icon {
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
 }
             
-#social-icon1{
-    float: right;
+#social-icon1 {
+  float: right;
 }
 
-#social-icon3{
+#social-icon3 {
   float: left;
 }
-
 
 
 @media screen and (min-width: 300px) and (max-width: 980px){
 
   /* Hamburger Nav  */
-
 .topnav {
   overflow: auto;
   background-color: white;
   position: fixed;
   z-index: 99;
-  width: 100%;
-  
-  
+  width: 100%; 
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -625,7 +620,7 @@ footer {
 .topnav a {
   color: rgb(75, 73, 73);
   font-family: 'Antic Didone'; 
-    font-size: 16px;
+  font-size: 16px;
   padding: 10px 16px;
   display: block;
 }
@@ -634,7 +629,7 @@ footer {
 .topnav a.icon {
   background: #efefef;
   color: lightsalmon;
- padding-top: 20px;
+  padding-top: 20px;
   display: block;
   position: absolute;
   right: 0;
@@ -652,94 +647,89 @@ footer {
   color: white;
 }
 
-
 /* Header and Nav Bar  */
-
-#masthead{
+#masthead {
   display: none;
 }
 
-#logo{
+#logo {
  width: 100%;
   text-align: left;     
   background-color: #efefef;  
 }
  
-#logo.active{
+#logo.active {
   padding-top: 5px;
- 
 }
-h1{
+
+h1 {
   text-align: center;
 }
 
-h2{
+h2 {
   font-size: 20px;
 }
 
-h3{
+h3 {
   font-size: 15px;
 }
       
-.hero-text{
-  /* padding-top: 10px; */
+.hero-text {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-h3{
+h3 {
   margin-left: 15px;
   margin-right: 15px;
 }
 
 
-#self-image{
+#self-image {
   margin: auto;
 }
 
-.about-me-cube{
+.about-me-cube {
  display: flex;
  justify-content: center;
 }
 
-img{
+img {
   width: 300px;
 }
 
-h7{
+h7 {
   text-align: center;
   display: flex;
   justify-content: center;
 }
 
 
-#about-me-text{
+#about-me-text {
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
 }
       
 /* Portfolio Web  */
-
-
 .card{
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
 }
-/* Social Media  */
 
+/* Social Media  */
 .container-social{
   padding-left: 15px;
   padding-right: 15px;
 }
 
-#social-text, #see-more{
+#social-text, #see-more {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-#fn-wc{
+#fn-wc {
 text-align: center;
 }
 
@@ -747,103 +737,100 @@ img.hover-shadow {
   margin-top: 15px;
 }
 
-#see-more{
+#see-more {
   display: none;
 }
 
-.social-text{
+.social-text {
   padding-left:15px;
   padding-right: 15px;
 }
 
 /* Certifications */
-
-.container-certifications{
+.container-certifications {
   padding-left: 15px;
   padding-right: 15px;
   background-color: rgba(255, 160, 122, 0.406);
 }
 
-h8{
+h8 {
   font-size: 11px;
 }
-#certificate{
-width: 300px;
-height: 50px;
-margin-left: auto;
-margin-right: auto;
+#certificate {
+  width: 300px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#hubspot-cert{
+#hubspot-cert {
   width: 40px;
   height: 30px;
 }
 
-#other-cert{
+#other-cert {
   width: 38px;
   height: 30px;
   padding-bottom: auto;
   padding-top: 3px;
 }
 
-
-.certs{
+.certs {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.certsL{
+.certsL {
   margin: 0;
 }
 
-.certsR{
+.certsR {
   margin: 0;
 }
 
 /* Writing  */
-.blogs, .web, .print{
+.blogs, .web, .print {
 width: 100%;
 }
 
 /* SEO  */
-
-.container-seo{
+.container-seo {
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
 }
 
 /* Contact  */
-
-.container-contact-me{
+.container-contact-me {
   padding-left: 15px;
   padding-right: 15px;
   background-color: white;
- }
+}
 
-.contact-display{
+.contact-display {
   height: 100%;
   /* padding-bottom: 110px; */
 }
 
-.contact-cube{
+.contact-cube {
   padding-top: 25px;
 }
 
 
 /* Social Icons */
-.social-icon{
+.social-icon {
   width: 25px;
   height: 25px;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
-#social-icon1{
+#social-icon1 {
   float: none;
 }
 
-#social-icon3{
+#social-icon3 {
   float: none;
 }
+
 }
