@@ -145,7 +145,7 @@ p {
 }
 
 /* Portfolio Web */
-.container-web-portfolio{
+.container-web-portfolio {
   background-color: #efefef;
   text-align: center;
   padding-top: 50px;
@@ -183,6 +183,10 @@ max-height: 300px;
   border: 0px none;
   color: white;
 }
+
+
+
+
 
 /* Social  */
 .container-social {
@@ -557,6 +561,9 @@ text-decoration: underline;
   text-align: center;
   min-height: 280px; 
 }
+
+
+
 
 /* Footer  */
 footer {
