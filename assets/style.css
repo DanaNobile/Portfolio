@@ -172,15 +172,18 @@ max-height: 300px;
   margin-bottom: 0px;
 }
 
-.btn {
+a.btn {
   background-color: #efefef;
   color: rgb(75, 73, 73);
   font-family: 'Antic Didone';
+  border: 1px solid rgba(255, 160, 122, 0.406);
+  margin-top: 3px;
+  
 }
 
 .btn:hover{
   background-color: rgba(255, 160, 122, 0.406);
-  border: 0px none;
+  /* border: 0px none; */
   color: white;
 }
 
